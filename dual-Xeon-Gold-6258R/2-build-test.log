@@ -32,7 +32,7 @@ TUNE_FEATURES        = "m64 core2"
 TARGET_FPU           = ""
 meta                 
 meta-poky            
-meta-yocto-bsp       = "zeus:99f07c39310f0be92d67acc2dc24411377e03b61"
+meta-yocto-bsp       = "zeus:7826dc68d9063ab7742c591b8d9eada5faac2080"
 meta-browser         = "zeus:1697014a05967ed54b294f3c4b5621df494d6551"
 meta-rust            = "zeus:5d1ada0c97723e1526bf5599b2fa2cbb56c2c0dc"
 meta-oe              = "zeus:e855ecc6d35677e79780adc57b2552213c995731"
@@ -56,8 +56,8 @@ NOTE: Running task 6 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-extende
 NOTE: recipe quilt-native-0.66-r0: task do_fetch: Started
 NOTE: recipe m4-native-1.4.18-r0: task do_fetch: Started
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_fetch: Started
-NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Started
 NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Started
 NOTE: recipe texinfo-dummy-native-1.0-r0: task do_prepare_recipe_sysroot: Succeeded
 NOTE: recipe texinfo-dummy-native-1.0-r0: task do_unpack: Succeeded
 NOTE: recipe m4-native-1.4.18-r0: task do_fetch: Succeeded
@@ -70,24 +70,24 @@ NOTE: Running task 9 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtool
 NOTE: recipe quilt-native-0.66-r0: task do_prepare_recipe_sysroot: Started
 NOTE: recipe quilt-native-0.66-r0: task do_unpack: Started
 NOTE: recipe quilt-native-0.66-r0: task do_prepare_recipe_sysroot: Succeeded
-NOTE: recipe quilt-native-0.66-r0: task do_unpack: Succeeded
-NOTE: Running task 10 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_patch)
-NOTE: recipe quilt-native-0.66-r0: task do_patch: Started
-NOTE: recipe quilt-native-0.66-r0: task do_patch: Succeeded
-NOTE: Running task 11 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_populate_lic)
-NOTE: Running task 12 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_configure)
-NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Started
-NOTE: recipe quilt-native-0.66-r0: task do_configure: Started
-NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Succeeded
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_fetch: Succeeded
-NOTE: Running task 13 of 42 (virtual:native:/home/w/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_prepare_recipe_sysroot)
-NOTE: Running task 14 of 42 (virtual:native:/home/w/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_unpack)
-NOTE: recipe quilt-native-0.66-r0: task do_configure: Succeeded
-NOTE: Running task 15 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_compile)
+NOTE: Running task 10 of 42 (virtual:native:/home/w/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_prepare_recipe_sysroot)
+NOTE: Running task 11 of 42 (virtual:native:/home/w/test-oe-build-time/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb:do_unpack)
+NOTE: recipe quilt-native-0.66-r0: task do_unpack: Succeeded
+NOTE: Running task 12 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_patch)
+NOTE: recipe quilt-native-0.66-r0: task do_patch: Started
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_prepare_recipe_sysroot: Started
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_unpack: Started
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_prepare_recipe_sysroot: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_patch: Succeeded
+NOTE: Running task 13 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_populate_lic)
+NOTE: Running task 14 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_configure)
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_unpack: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Started
+NOTE: recipe quilt-native-0.66-r0: task do_configure: Started
+NOTE: recipe quilt-native-0.66-r0: task do_populate_lic: Succeeded
+NOTE: recipe quilt-native-0.66-r0: task do_configure: Succeeded
+NOTE: Running task 15 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_compile)
 NOTE: recipe quilt-native-0.66-r0: task do_compile: Started
 NOTE: recipe quilt-native-0.66-r0: task do_compile: Succeeded
 NOTE: Running task 16 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/quilt/quilt-native_0.66.bb:do_install)
@@ -146,11 +146,11 @@ NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Started
 NOTE: recipe m4-native-1.4.18-r0: task do_prepare_recipe_sysroot: Started
 NOTE: recipe m4-native-1.4.18-r0: task do_prepare_recipe_sysroot: Succeeded
 NOTE: Running task 36 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_configure)
-NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_rm_work: Started
 NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Succeeded
+NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_rm_work: Started
 NOTE: recipe gnu-config-native-20190501+gitAUTOINC+b98424c249-r0: task do_rm_work: Succeeded
-NOTE: recipe m4-native-1.4.18-r0: task do_configure: Started
 NOTE: Running noexec task 37 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_rm_work_all)
+NOTE: recipe m4-native-1.4.18-r0: task do_configure: Started
 NOTE: recipe m4-native-1.4.18-r0: task do_configure: Succeeded
 NOTE: Running task 38 of 42 (/home/w/test-oe-build-time/poky/meta/recipes-devtools/m4/m4-native_1.4.18.bb:do_compile)
 NOTE: recipe m4-native-1.4.18-r0: task do_compile: Started
@@ -168,5 +168,5 @@ NOTE: Running noexec task 42 of 42 (/home/w/test-oe-build-time/poky/meta/recipes
 NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-0.43user 0.05system 0:26.43elapsed 1%CPU (0avgtext+0avgdata 32756maxresident)k
-1368inputs+2688outputs (6major+20314minor)pagefaults 0swaps
+0.43user 0.04system 0:25.21elapsed 1%CPU (0avgtext+0avgdata 32832maxresident)k
+0inputs+2680outputs (0major+20327minor)pagefaults 0swaps

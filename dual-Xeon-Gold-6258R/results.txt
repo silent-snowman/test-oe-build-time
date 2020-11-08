@@ -16,54 +16,90 @@ GPU: NVIDIA Quadro P2200
 Memory: 2276MiB / 192053MiB 
  
 
+
 ==> 1-init.log <==
  - 'devtool' and 'recipetool' handle common recipe tasks
  - 'bitbake-layers' handles common layer tasks
  - 'oe-pkgdata-util' handles common target package tasks
-15.57user 2.03system 0:35.79elapsed 49%CPU (0avgtext+0avgdata 150116maxresident)k
-4944inputs+746520outputs (23major+160240minor)pagefaults 0swaps
+15.83user 2.25system 1:37.04elapsed 18%CPU (0avgtext+0avgdata 149712maxresident)k
+0inputs+748136outputs (0major+179926minor)pagefaults 0swaps
 
 ==> 2-build-test.log <==
 NOTE: Tasks Summary: Attempted 42 tasks of which 0 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-0.43user 0.05system 0:26.43elapsed 1%CPU (0avgtext+0avgdata 32756maxresident)k
-1368inputs+2688outputs (6major+20314minor)pagefaults 0swaps
+0.43user 0.04system 0:25.21elapsed 1%CPU (0avgtext+0avgdata 32832maxresident)k
+0inputs+2680outputs (0major+20327minor)pagefaults 0swaps
 
 ==> 3-fetch.log <==
 NOTE: Tasks Summary: Attempted 530 tasks of which 0 didn't need to be rerun and all succeeded.
 
-Summary: There were 15 WARNING messages shown.
-3.22user 0.49system 29:50.19elapsed 0%CPU (0avgtext+0avgdata 29000maxresident)k
-0inputs+480outputs (0major+17632minor)pagefaults 0swaps
+Summary: There were 17 WARNING messages shown.
+3.50user 0.58system 38:15.59elapsed 0%CPU (0avgtext+0avgdata 29056maxresident)k
+0inputs+488outputs (0major+17599minor)pagefaults 0swaps
 
 ==> 4-build-all-cores.log <==
 NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-42.35user 5.74system 1:24:04elapsed 0%CPU (0avgtext+0avgdata 29148maxresident)k
-8inputs+4592outputs (0major+46570minor)pagefaults 0swaps
+43.42user 6.03system 1:20:21elapsed 1%CPU (0avgtext+0avgdata 28724maxresident)k
+928inputs+4576outputs (5major+46744minor)pagefaults 0swaps
 
 ==> 5-build-8-bb-threads.log <==
 NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-34.82user 2539.63system 2:19:23elapsed 30%CPU (0avgtext+0avgdata 28356maxresident)k
-2194992inputs+4928outputs (12340major+66062minor)pagefaults 0swaps
+42.10user 6.00system 1:31:24elapsed 0%CPU (0avgtext+0avgdata 28648maxresident)k
+10200inputs+4880outputs (8major+45392minor)pagefaults 0swaps
 
 ==> 6-build-16-bb-threads.log <==
 NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-41.74user 5.83system 1:21:13elapsed 0%CPU (0avgtext+0avgdata 28688maxresident)k
-8704inputs+4696outputs (7major+46060minor)pagefaults 0swaps
+41.16user 5.75system 1:21:49elapsed 0%CPU (0avgtext+0avgdata 28780maxresident)k
+6480inputs+4664outputs (5major+45067minor)pagefaults 0swaps
 
 ==> 7-build-2-bb-threads.log <==
 NOTE: Tasks Summary: Attempted 7999 tasks of which 1 didn't need to be rerun and all succeeded.
 
 Summary: There were 2 WARNING messages shown.
-40.00user 4.99system 2:45:34elapsed 0%CPU (0avgtext+0avgdata 29012maxresident)k
-9576inputs+6168outputs (2major+42008minor)pagefaults 0swaps
+40.31user 5.20system 2:43:23elapsed 0%CPU (0avgtext+0avgdata 29100maxresident)k
+5016inputs+6336outputs (0major+42461minor)pagefaults 0swaps
+
+==> 8-build-individual-components.112.chromium-x11.log <==
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1182.14 1.71 12.50 1% 11621 133460 17962 0 29040 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.112.qtbase.log <==
+NOTE: recipe qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1132 tasks of which 1130 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 247.00 0.04 0.39 0% 1 12772 9876 0 28792 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.112.qtdeclarative.log <==
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1144 tasks of which 1142 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 126.36 0.04 0.35 0% 3 12090 9865 0 28864 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.112.qtwebengine.log <==
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1619 tasks of which 1618 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 481.63 0.68 4.58 1% 4780 62351 14672 0 28796 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.112.rust-native.log <==
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1432.53 0.08 0.61 0% 2 14082 9858 0 29056 0 bitbake -c compile rust-native
 
 ==> 8-build-individual-components.128.chromium-x11.log <==
 NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
@@ -100,6 +136,41 @@ NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun an
 Summary: There was 1 WARNING message shown.
 TIME: 1248.77 0.06 0.45 0% 20 13450 10057 0 29140 0 bitbake -c compile rust-native
 
+==> 8-build-individual-components.56.chromium-x11.log <==
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1700.46 1.16 11.18 0% 119 131649 17172 0 29100 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.56.qtbase.log <==
+NOTE: recipe qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1132 tasks of which 1130 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 256.08 0.07 0.36 0% 2 13066 9863 0 29000 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.56.qtdeclarative.log <==
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1144 tasks of which 1142 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 128.75 0.04 0.35 0% 3 12629 9853 0 28820 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.56.qtwebengine.log <==
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1619 tasks of which 1618 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 594.30 0.44 3.87 0% 24 60997 13818 0 29032 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.56.rust-native.log <==
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1422.25 0.05 0.63 0% 4 14070 9857 0 28780 0 bitbake -c compile rust-native
+
 ==> 8-build-individual-components.64.chromium-x11.log <==
 NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
 NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
@@ -134,6 +205,41 @@ NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun an
 
 Summary: There was 1 WARNING message shown.
 TIME: 1298.85 0.06 0.45 0% 27 13809 10050 0 28836 0 bitbake -c compile rust-native
+
+==> 8-build-individual-components.84.chromium-x11.log <==
+NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1913 tasks of which 1911 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1306.50 1.44 11.47 0% 62 137091 17594 0 29056 0 bitbake -c compile chromium-x11
+
+==> 8-build-individual-components.84.qtbase.log <==
+NOTE: recipe qtbase-5.13.2+gitAUTOINC+a7a24784ee-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1132 tasks of which 1130 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 246.06 0.05 0.39 0% 2 12835 9857 0 29040 0 bitbake -c compile qtbase
+
+==> 8-build-individual-components.84.qtdeclarative.log <==
+NOTE: recipe qtdeclarative-5.13.2+gitAUTOINC+4080025fed-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1144 tasks of which 1142 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 127.71 0.05 0.34 0% 1 12591 9873 0 29140 0 bitbake -c compile qtdeclarative
+
+==> 8-build-individual-components.84.qtwebengine.log <==
+NOTE: recipe qtwebengine-5.13.2+gitAUTOINC+556576b55f_843d70ac87-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 1619 tasks of which 1618 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 528.90 0.53 4.08 0% 9 62468 13833 0 28808 0 bitbake -c compile qtwebengine
+
+==> 8-build-individual-components.84.rust-native.log <==
+NOTE: recipe rust-native-1.37.0-r0: task do_compile: Succeeded
+NOTE: Tasks Summary: Attempted 210 tasks of which 208 didn't need to be rerun and all succeeded.
+
+Summary: There were 2 WARNING messages shown.
+TIME: 1425.65 0.09 0.59 0% 2 14075 9852 0 28800 0 bitbake -c compile rust-native
 
 ==> 8-build-individual-components.96.chromium-x11.log <==
 NOTE: recipe chromium-x11-79.0.3945.117-r0: task do_compile: Succeeded
