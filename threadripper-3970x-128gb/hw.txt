@@ -1,0 +1,1482 @@
+sgn-ldhettr
+    description: Desktop Computer
+    product: TRX40 AORUS MASTER (Default string)
+    vendor: Gigabyte Technology Co., Ltd.
+    version: -CF
+    serial: Default string
+    width: 64 bits
+    capabilities: smbios-3.2.0 dmi-3.2.0 smp vsyscall32
+    configuration: boot=normal chassis=desktop family=Default string sku=Default string uuid=1802C003-4D04-0005-5006-880700080009
+  *-core
+       description: Motherboard
+       product: TRX40 AORUS MASTER
+       vendor: Gigabyte Technology Co., Ltd.
+       physical id: 0
+       version: x.x
+       serial: Default string
+       slot: Default string
+     *-firmware
+          description: BIOS
+          vendor: American Megatrends Inc.
+          physical id: 0
+          version: FA
+          date: 07/20/2020
+          size: 64KiB
+          capacity: 16MiB
+          capabilities: pci upgrade shadowing cdboot bootselect socketedrom edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int14serial int17printer acpi usb biosbootspecification uefi
+     *-memory
+          description: System Memory
+          physical id: 9
+          slot: System board or motherboard
+          size: 128GiB
+        *-bank:0
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 0
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:1
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2666 MHz (0.4 ns)
+             product: GP-DSG64G32
+             vendor: Unknown
+             physical id: 1
+             serial: 20270216
+             slot: DIMM 1
+             size: 32GiB
+             width: 64 bits
+             clock: 2666MHz (0.4ns)
+        *-bank:2
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 2
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:3
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2666 MHz (0.4 ns)
+             product: GP-DSG64G32
+             vendor: Unknown
+             physical id: 3
+             serial: 20270883
+             slot: DIMM 1
+             size: 32GiB
+             width: 64 bits
+             clock: 2666MHz (0.4ns)
+        *-bank:4
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 4
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:5
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2666 MHz (0.4 ns)
+             product: GP-DSG64G32
+             vendor: Unknown
+             physical id: 5
+             serial: 20270331
+             slot: DIMM 1
+             size: 32GiB
+             width: 64 bits
+             clock: 2666MHz (0.4ns)
+        *-bank:6
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 6
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:7
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2666 MHz (0.4 ns)
+             product: GP-DSG64G32
+             vendor: Unknown
+             physical id: 7
+             serial: 20270324
+             slot: DIMM 1
+             size: 32GiB
+             width: 64 bits
+             clock: 2666MHz (0.4ns)
+     *-cache:0
+          description: L1 cache
+          physical id: c
+          slot: L1 - Cache
+          size: 2MiB
+          capacity: 2MiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=1
+     *-cache:1
+          description: L2 cache
+          physical id: d
+          slot: L2 - Cache
+          size: 16MiB
+          capacity: 16MiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=2
+     *-cache:2
+          description: L3 cache
+          physical id: e
+          slot: L3 - Cache
+          size: 128MiB
+          capacity: 128MiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=3
+     *-cpu
+          description: CPU
+          product: AMD Ryzen Threadripper 3970X 32-Core Processor
+          vendor: Advanced Micro Devices [AMD]
+          physical id: f
+          bus info: cpu@0
+          version: AMD Ryzen Threadripper 3970X 32-Core Processor
+          serial: Unknown
+          slot: SP3r2
+          size: 2200MHz
+          capacity: 3700MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd mba sev ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca cpufreq
+          configuration: cores=32 enabledcores=32 threads=64
+     *-pci:0
+          description: Host bridge
+          product: Starship/Matisse Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Starship/Matisse IOMMU
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:00:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:31 memory:e8300000-e83fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: NVMe SSD Controller SM981/PM981/PM983
+                vendor: Samsung Electronics Co Ltd
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:61 memory:e8300000-e8303fff
+              *-nvme0
+                   description: NVMe device
+                   product: Samsung SSD 970 EVO Plus 1TB
+                   physical id: 0
+                   logical name: /dev/nvme0
+                   version: 2B2QEXM7
+                   serial: S4EWNF0N603546Z
+                   configuration: nqn=nqn.2014.08.org.nvmexpress:144d144dS4EWNF0N603546Z     Samsung SSD 970 EVO Plus 1TB state=live
+                 *-namespace
+                      description: NVMe namespace
+                      physical id: 1
+                      logical name: /dev/nvme0n1
+                      size: 931GiB (1TB)
+                      capabilities: partitioned partitioned:luks
+                      configuration: logicalsectorsize=512 sectorsize=512
+                    *-volume
+                         description: Linux Unified Key Setup volume
+                         physical id: 0
+                         logical name: /dev/nvme0n1
+                         serial: d880690d-100c-4652-8633-5a86370a4384
+                         size: 931GiB
+                         capacity: 931GiB
+                         width: 685301560 bits
+                         capabilities: encrypted luks initialized
+                         configuration: bits=26455105336 filesystem=luks hash=sha256 version=2
+        *-pci:1
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:32 memory:e8200000-e82fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: NVMe SSD Controller SM981/PM981/PM983
+                vendor: Samsung Electronics Co Ltd
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:63 memory:e8200000-e8203fff
+              *-nvme1
+                   description: NVMe device
+                   product: Samsung SSD 970 EVO Plus 1TB
+                   physical id: 0
+                   logical name: /dev/nvme1
+                   version: 2B2QEXM7
+                   serial: S4EWNF0N603485H
+                   configuration: nqn=nqn.2014.08.org.nvmexpress:144d144dS4EWNF0N603485H     Samsung SSD 970 EVO Plus 1TB state=live
+                 *-namespace
+                      description: NVMe namespace
+                      physical id: 1
+                      logical name: /dev/nvme1n1
+                      size: 931GiB (1TB)
+                      capabilities: partitioned partitioned:luks
+                      configuration: logicalsectorsize=512 sectorsize=512
+                    *-volume
+                         description: Linux Unified Key Setup volume
+                         physical id: 0
+                         logical name: /dev/nvme1n1
+                         serial: 2d7caa32-aca8-4001-9641-ba276cc3d650
+                         size: 931GiB
+                         capacity: 931GiB
+                         width: 279669680 bits
+                         capabilities: encrypted luks initialized
+                         configuration: bits=26049473456 filesystem=luks hash=sha256 version=2
+        *-pci:2
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.3
+             bus info: pci@0000:00:01.3
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:33 memory:e8100000-e81fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: Phison Electronics Corporation
+                vendor: Phison Electronics Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 01
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pciexpress msix msi pm nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:137 memory:e8100000-e8103fff
+              *-nvme2
+                   description: NVMe device
+                   product: PCIe SSD
+                   physical id: 0
+                   logical name: /dev/nvme2
+                   version: E8TI14.1
+                   serial: 0546079C1AF301014019
+                   configuration: nqn=nqn.2014.08.org.nvmexpress:198719870546079C1AF301014019PCIe SSD state=live
+                 *-namespace
+                      description: NVMe namespace
+                      physical id: 1
+                      logical name: /dev/nvme2n1
+                      size: 223GiB (240GB)
+                      capabilities: gpt-1.00 partitioned partitioned:gpt
+                      configuration: guid=ca7ed24a-bdfd-4157-8cf0-2d1e143440ba logicalsectorsize=512 sectorsize=512
+                    *-volume:0 UNCLAIMED
+                         description: Windows FAT volume
+                         vendor: mkfs.fat
+                         physical id: 1
+                         version: FAT32
+                         serial: 9a26-c6cf
+                         size: 510MiB
+                         capacity: 511MiB
+                         capabilities: boot fat initialized
+                         configuration: FATs=2 filesystem=fat
+                    *-volume:1
+                         description: EXT4 volume
+                         vendor: Linux
+                         physical id: 2
+                         logical name: /dev/nvme2n1p2
+                         logical name: /boot
+                         version: 1.0
+                         serial: 92be3fe4-69a9-43bc-9a55-9fd7630bdc53
+                         size: 1GiB
+                         capabilities: journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                         configuration: created=2021-02-22 18:46:49 filesystem=ext4 lastmountpoint=/boot modified=2021-03-27 14:44:29 mount.fstype=ext4 mount.options=rw,relatime mounted=2021-03-27 14:44:29 state=mounted
+                    *-volume:2
+                         description: EFI partition
+                         physical id: 3
+                         logical name: /dev/nvme2n1p3
+                         serial: d41badae-c516-444c-aa9f-afcc0a857ff2
+                         size: 222GiB
+                         capacity: 222GiB
+                         width: 997163416 bits
+                         capabilities: encrypted luks initialized
+                         configuration: bits=31061934488 filesystem=luks hash=sha256 version=2
+        *-pci:3
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:00:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:35
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+        *-pci:4
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:00:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:36 memory:e8000000-e80fffff
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse Reserved SPP
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:05:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-usb
+                description: USB controller
+                product: Starship USB 3.0 Host Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:05:00.3
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:60 memory:e8000000-e80fffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 5.8.0-48-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@1
+                   logical name: usb1
+                   version: 5.08
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 5.8.0-48-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@2
+                   logical name: usb2
+                   version: 5.08
+                   capabilities: usb-3.10
+                   configuration: driver=hub slots=2 speed=10000Mbit/s
+        *-serial UNCLAIMED
+             description: SMBus
+             product: FCH SMBus Controller
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 61
+             width: 32 bits
+             clock: 66MHz
+             configuration: latency=0
+        *-isa
+             description: ISA bridge
+             product: FCH LPC Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             version: 51
+             width: 32 bits
+             clock: 66MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+     *-pci:1
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 101
+          bus info: pci@0000:00:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:2
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 102
+          bus info: pci@0000:00:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:3
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 103
+          bus info: pci@0000:00:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:4
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 104
+          bus info: pci@0000:00:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:5
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 105
+          bus info: pci@0000:00:05.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:6
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 106
+          bus info: pci@0000:00:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:7
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 107
+          bus info: pci@0000:00:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:8
+          description: Host bridge
+          product: Starship Device 24; Function 0
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 108
+          bus info: pci@0000:00:18.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:9
+          description: Host bridge
+          product: Starship Device 24; Function 1
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 109
+          bus info: pci@0000:00:18.1
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:10
+          description: Host bridge
+          product: Starship Device 24; Function 2
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10a
+          bus info: pci@0000:00:18.2
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:11
+          description: Host bridge
+          product: Starship Device 24; Function 3
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10b
+          bus info: pci@0000:00:18.3
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=k10temp
+          resources: irq:0
+     *-pci:12
+          description: Host bridge
+          product: Starship Device 24; Function 4
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10c
+          bus info: pci@0000:00:18.4
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:13
+          description: Host bridge
+          product: Starship Device 24; Function 5
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10d
+          bus info: pci@0000:00:18.5
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:14
+          description: Host bridge
+          product: Starship Device 24; Function 6
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10e
+          bus info: pci@0000:00:18.6
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:15
+          description: Host bridge
+          product: Starship Device 24; Function 7
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10f
+          bus info: pci@0000:00:18.7
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:16
+          description: Host bridge
+          product: Starship/Matisse Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 110
+          bus info: pci@0000:20:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Starship/Matisse IOMMU
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:20:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 3.1
+             bus info: pci@0000:20:03.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:37 memory:fa300000-fa3fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: NVMe SSD Controller SM981/PM981/PM983
+                vendor: Samsung Electronics Co Ltd
+                physical id: 0
+                bus info: pci@0000:21:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:139 memory:fa300000-fa303fff
+              *-nvme3
+                   description: NVMe device
+                   product: Samsung SSD 970 EVO Plus 1TB
+                   physical id: 0
+                   logical name: /dev/nvme3
+                   version: 2B2QEXM7
+                   serial: S59ANS0NA29714N
+                   configuration: nqn=nqn.2014.08.org.nvmexpress:144d144dS59ANS0NA29714N     Samsung SSD 970 EVO Plus 1TB state=live
+                 *-namespace
+                      description: NVMe namespace
+                      physical id: 1
+                      logical name: /dev/nvme3n1
+                      size: 931GiB (1TB)
+                      capabilities: partitioned partitioned:luks
+                      configuration: logicalsectorsize=512 sectorsize=512
+                    *-volume
+                         description: Linux Unified Key Setup volume
+                         physical id: 0
+                         logical name: /dev/nvme3n1
+                         serial: f0bfde6b-0bae-4ad9-ae6a-762f805a6a02
+                         size: 931GiB
+                         capacity: 931GiB
+                         width: 1873933288 bits
+                         capabilities: encrypted luks initialized
+                         configuration: bits=31938704360 filesystem=luks hash=sha256 version=2
+        *-pci:1
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:20:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:39
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:22:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+        *-pci:2
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:20:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:40 memory:fa000000-fa2fffff
+           *-generic:0 UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse Reserved SPP
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:23:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-generic:1
+                description: Encryption controller
+                product: Starship/Matisse Cryptographic Coprocessor PSPCPP
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.1
+                bus info: pci@0000:23:00.1
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix bus_master cap_list
+                configuration: driver=ccp latency=0
+                resources: irq:251 memory:fa100000-fa1fffff memory:fa208000-fa209fff
+           *-usb
+                description: USB controller
+                product: Starship USB 3.0 Host Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:23:00.3
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:206 memory:fa000000-fa0fffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 5.8.0-48-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@3
+                   logical name: usb3
+                   version: 5.08
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=2 speed=480Mbit/s
+                 *-usb
+                      description: Human interface device
+                      product: Offline UPS
+                      vendor: PPC
+                      physical id: 1
+                      bus info: usb@3:1
+                      version: 0.03
+                      serial: 000000000
+                      capabilities: usb-1.10
+                      configuration: driver=usbhid maxpower=100mA speed=2Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 5.8.0-48-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@4
+                   logical name: usb4
+                   version: 5.08
+                   capabilities: usb-3.10
+                   configuration: driver=hub slots=2 speed=10000Mbit/s
+           *-multimedia
+                description: Audio device
+                product: Starship/Matisse HD Audio Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.4
+                bus info: pci@0000:23:00.4
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:255 memory:fa200000-fa207fff
+     *-pci:17
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 111
+          bus info: pci@0000:20:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:18
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 112
+          bus info: pci@0000:20:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:19
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 113
+          bus info: pci@0000:20:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:20
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 114
+          bus info: pci@0000:20:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:21
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 115
+          bus info: pci@0000:20:05.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:22
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 116
+          bus info: pci@0000:20:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:23
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 117
+          bus info: pci@0000:20:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:24
+          description: Host bridge
+          product: Starship/Matisse Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 118
+          bus info: pci@0000:40:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Starship/Matisse IOMMU
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:40:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.1
+             bus info: pci@0000:40:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:41 ioport:9000(size=4096) memory:e0400000-e10fffff
+           *-pci
+                description: PCI bridge
+                product: Matisse Switch Upstream
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:41:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pci pm pciexpress msi normal_decode bus_master cap_list
+                configuration: driver=pcieport
+                resources: irq:26 ioport:9000(size=4096) memory:e0400000-e10fffff
+              *-pci:0
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 1
+                   bus info: pci@0000:42:01.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:47 memory:e1000000-e10fffff
+                 *-storage
+                      description: Non-Volatile memory controller
+                      product: NVMe SSD Controller SM981/PM981/PM983
+                      vendor: Samsung Electronics Co Ltd
+                      physical id: 0
+                      bus info: pci@0000:43:00.0
+                      version: 00
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
+                      configuration: driver=nvme latency=0
+                      resources: irq:52 memory:e1000000-e1003fff
+                    *-nvme4
+                         description: NVMe device
+                         product: Samsung SSD 970 EVO Plus 1TB
+                         physical id: 0
+                         logical name: /dev/nvme4
+                         version: 2B2QEXM7
+                         serial: S59ANS0N814668V
+                         configuration: nqn=nqn.2014.08.org.nvmexpress:144d144dS59ANS0N814668V     Samsung SSD 970 EVO Plus 1TB state=live
+                       *-namespace
+                            description: NVMe namespace
+                            physical id: 1
+                            logical name: /dev/nvme4n1
+                            size: 931GiB (1TB)
+                            capabilities: partitioned partitioned:luks
+                            configuration: logicalsectorsize=512 sectorsize=512
+                          *-volume
+                               description: Linux Unified Key Setup volume
+                               physical id: 0
+                               logical name: /dev/nvme4n1
+                               serial: e02fabc7-a25a-4f6b-aa5e-f94b0aa82922
+                               size: 931GiB
+                               capacity: 931GiB
+                               width: 158571256 bits
+                               capabilities: encrypted luks initialized
+                               configuration: bits=21633407736 filesystem=luks hash=sha256 version=2
+              *-pci:1
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 2
+                   bus info: pci@0000:42:02.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:48 ioport:9000(size=4096) memory:e0f00000-e0ffffff
+                 *-network
+                      description: Ethernet interface
+                      product: I211 Gigabit Network Connection
+                      vendor: Intel Corporation
+                      physical id: 0
+                      bus info: pci@0000:44:00.0
+                      logical name: enp68s0
+                      version: 03
+                      serial: 18:c0:4d:00:50:88
+                      size: 1Gbit/s
+                      capacity: 1Gbit/s
+                      width: 32 bits
+                      clock: 33MHz
+                      capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                      configuration: autonegotiation=on broadcast=yes driver=igb driverversion=5.6.0-k duplex=full firmware=0. 6-1 ip=10.163.33.3 latency=0 link=yes multicast=yes port=twisted pair speed=1Gbit/s
+                      resources: irq:54 memory:e0f00000-e0f1ffff ioport:9000(size=32) memory:e0f20000-e0f23fff
+              *-pci:2
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 5
+                   bus info: pci@0000:42:05.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:49 memory:e0400000-e08fffff
+                 *-network
+                      description: Ethernet interface
+                      product: AQC111 NBase-T/IEEE 802.3bz Ethernet Controller [AQtion]
+                      vendor: Aquantia Corp.
+                      physical id: 0
+                      bus info: pci@0000:45:00.0
+                      logical name: enp69s0
+                      version: 02
+                      serial: 18:c0:4d:00:50:8a
+                      capacity: 1Gbit/s
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pciexpress pm msix msi vpd bus_master cap_list rom ethernet physical tp 100bt-fd 1000bt-fd autonegotiation
+                      configuration: autonegotiation=on broadcast=yes driver=atlantic driverversion=5.8.0-48-generic duplex=full firmware=3.1.87 latency=0 link=no multicast=yes port=twisted pair
+                      resources: irq:52 memory:e0840000-e084ffff memory:e0850000-e0850fff memory:e0400000-e07fffff memory:e0800000-e083ffff
+              *-pci:3
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 6
+                   bus info: pci@0000:42:06.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:50 memory:e0e00000-e0efffff
+                 *-network
+                      description: Wireless interface
+                      product: Wi-Fi 6 AX200
+                      vendor: Intel Corporation
+                      physical id: 0
+                      bus info: pci@0000:46:00.0
+                      logical name: wlo2
+                      version: 1a
+                      serial: ac:12:03:9e:f5:11
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pm msi pciexpress msix bus_master cap_list ethernet physical wireless
+                      configuration: broadcast=yes driver=iwlwifi driverversion=5.8.0-48-generic firmware=55.d9698065.0 cc-a0-55.ucode latency=0 link=no multicast=yes wireless=IEEE 802.11
+                      resources: irq:54 memory:e0e00000-e0e03fff
+              *-pci:4
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 8
+                   bus info: pci@0000:42:08.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:51 memory:e0a00000-e0bfffff
+                 *-generic UNCLAIMED
+                      description: Non-Essential Instrumentation
+                      product: Starship/Matisse Reserved SPP
+                      vendor: Advanced Micro Devices, Inc. [AMD]
+                      physical id: 0
+                      bus info: pci@0000:47:00.0
+                      version: 00
+                      width: 32 bits
+                      clock: 33MHz
+                      capabilities: pm pciexpress cap_list
+                      configuration: latency=0
+                 *-usb:0
+                      description: USB controller
+                      product: Matisse USB 3.0 Host Controller
+                      vendor: Advanced Micro Devices, Inc. [AMD]
+                      physical id: 0.1
+                      bus info: pci@0000:47:00.1
+                      version: 00
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pm pciexpress msi xhci bus_master cap_list
+                      configuration: driver=xhci_hcd latency=0
+                      resources: irq:215 memory:e0b00000-e0bfffff
+                    *-usbhost:0
+                         product: xHCI Host Controller
+                         vendor: Linux 5.8.0-48-generic xhci-hcd
+                         physical id: 0
+                         bus info: usb@5
+                         logical name: usb5
+                         version: 5.08
+                         capabilities: usb-2.00
+                         configuration: driver=hub slots=6 speed=480Mbit/s
+                       *-usb:0
+                            description: USB hub
+                            product: USB2.0 Hub
+                            vendor: Genesys Logic, Inc.
+                            physical id: 4
+                            bus info: usb@5:4
+                            version: 85.36
+                            capabilities: usb-2.00
+                            configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                          *-usb:0
+                               description: Bluetooth wireless interface
+                               vendor: Intel Corp.
+                               physical id: 1
+                               bus info: usb@5:4.1
+                               version: 0.01
+                               capabilities: bluetooth usb-2.01
+                               configuration: driver=btusb maxpower=100mA speed=12Mbit/s
+                          *-usb:1
+                               description: Keyboard
+                               product: ITE Device(8595)
+                               vendor: ITE Tech. Inc.
+                               physical id: 3
+                               bus info: usb@5:4.3
+                               version: 0.03
+                               capabilities: usb-2.00
+                               configuration: driver=usbhid maxpower=100mA speed=12Mbit/s
+                       *-usb:1
+                            description: Audio device
+                            product: USB Audio
+                            vendor: Generic
+                            physical id: 6
+                            bus info: usb@5:6
+                            version: 0.05
+                            capabilities: usb-2.00 audio-control
+                            configuration: driver=usbhid maxpower=100mA speed=480Mbit/s
+                    *-usbhost:1
+                         product: xHCI Host Controller
+                         vendor: Linux 5.8.0-48-generic xhci-hcd
+                         physical id: 1
+                         bus info: usb@6
+                         logical name: usb6
+                         version: 5.08
+                         capabilities: usb-3.10
+                         configuration: driver=hub slots=4 speed=10000Mbit/s
+                 *-usb:1
+                      description: USB controller
+                      product: Matisse USB 3.0 Host Controller
+                      vendor: Advanced Micro Devices, Inc. [AMD]
+                      physical id: 0.3
+                      bus info: pci@0000:47:00.3
+                      version: 00
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pm pciexpress msi msix xhci bus_master cap_list
+                      configuration: driver=xhci_hcd latency=0
+                      resources: irq:54 memory:e0a00000-e0afffff
+                    *-usbhost:0
+                         product: xHCI Host Controller
+                         vendor: Linux 5.8.0-48-generic xhci-hcd
+                         physical id: 0
+                         bus info: usb@7
+                         logical name: usb7
+                         version: 5.08
+                         capabilities: usb-2.00
+                         configuration: driver=hub slots=6 speed=480Mbit/s
+                       *-usb:0
+                            description: Audio device
+                            product: USB Audio
+                            vendor: Generic
+                            physical id: 5
+                            bus info: usb@7:5
+                            version: 0.05
+                            capabilities: usb-2.00 audio-control
+                            configuration: driver=usbhid maxpower=100mA speed=480Mbit/s
+                       *-usb:1
+                            description: USB hub
+                            product: USB2.0 Hub
+                            vendor: Genesys Logic, Inc.
+                            physical id: 6
+                            bus info: usb@7:6
+                            version: 85.36
+                            capabilities: usb-2.00
+                            configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                    *-usbhost:1
+                         product: xHCI Host Controller
+                         vendor: Linux 5.8.0-48-generic xhci-hcd
+                         physical id: 1
+                         bus info: usb@8
+                         logical name: usb8
+                         version: 5.08
+                         capabilities: usb-3.10
+                         configuration: driver=hub slots=4 speed=10000Mbit/s
+              *-pci:5
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 9
+                   bus info: pci@0000:42:09.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:53 memory:e0d00000-e0dfffff
+                 *-sata
+                      description: SATA controller
+                      product: FCH SATA Controller [AHCI mode]
+                      vendor: Advanced Micro Devices, Inc. [AMD]
+                      physical id: 0
+                      bus info: pci@0000:48:00.0
+                      version: 51
+                      width: 32 bits
+                      clock: 33MHz
+                      capabilities: sata pm pciexpress msi ahci_1.0 bus_master cap_list
+                      configuration: driver=ahci latency=0
+                      resources: irq:216 memory:e0d00000-e0d007ff
+              *-pci:6
+                   description: PCI bridge
+                   product: Matisse PCIe GPP Bridge
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: a
+                   bus info: pci@0000:42:0a.0
+                   version: 00
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:55 memory:e0c00000-e0cfffff
+                 *-sata
+                      description: SATA controller
+                      product: FCH SATA Controller [AHCI mode]
+                      vendor: Advanced Micro Devices, Inc. [AMD]
+                      physical id: 0
+                      bus info: pci@0000:49:00.0
+                      version: 51
+                      width: 32 bits
+                      clock: 33MHz
+                      capabilities: sata pm pciexpress msi ahci_1.0 bus_master cap_list
+                      configuration: driver=ahci latency=0
+                      resources: irq:217 memory:e0c00000-e0c007ff
+        *-pci:1
+             description: PCI bridge
+             product: Starship/Matisse GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.3
+             bus info: pci@0000:40:01.3
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 ioport:8000(size=4096) memory:df000000-e00fffff ioport:c0000000(size=301989888)
+           *-display
+                description: VGA compatible controller
+                product: GP108 [GeForce GT 1030]
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:4a:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuration: driver=nouveau latency=0
+                resources: irq:242 memory:df000000-dfffffff memory:c0000000-cfffffff memory:d0000000-d1ffffff ioport:8000(size=128) memory:c0000-dffff
+           *-multimedia
+                description: Audio device
+                product: GP108 High Definition Audio Controller
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:4a:00.1
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:256 memory:e0080000-e0083fff
+        *-pci:2
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:40:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:4b:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+        *-pci:3
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:40:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:46
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse Reserved SPP
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:4c:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+     *-pci:25
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 119
+          bus info: pci@0000:40:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:26
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11a
+          bus info: pci@0000:40:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:27
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11b
+          bus info: pci@0000:40:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:28
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11c
+          bus info: pci@0000:40:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:29
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11d
+          bus info: pci@0000:40:05.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:30
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11e
+          bus info: pci@0000:40:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:31
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11f
+          bus info: pci@0000:40:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:32
+          description: Host bridge
+          product: Starship/Matisse Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 120
+          bus info: pci@0000:60:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Starship/Matisse IOMMU
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:60:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:60:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:57
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:61:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+        *-pci:1
+             description: PCI bridge
+             product: Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:60:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:59
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Starship/Matisse Reserved SPP
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:62:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+     *-pci:33
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 121
+          bus info: pci@0000:60:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:34
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 122
+          bus info: pci@0000:60:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:35
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 123
+          bus info: pci@0000:60:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:36
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 124
+          bus info: pci@0000:60:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:37
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 125
+          bus info: pci@0000:60:05.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:38
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 126
+          bus info: pci@0000:60:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:39
+          description: Host bridge
+          product: Starship/Matisse PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 127
+          bus info: pci@0000:60:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pnp00:00
+          product: PnP device PNP0c01
+          physical id: 1
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:01
+          product: PnP device PNP0c02
+          physical id: 2
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:02
+          product: PnP device PNP0c02
+          physical id: 3
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:03
+          product: PnP device PNP0b00
+          physical id: 4
+          capabilities: pnp
+          configuration: driver=rtc_cmos
+     *-pnp00:04
+          product: PnP device PNP0c02
+          physical id: 5
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:05
+          product: PnP device PNP0c02
+          physical id: 6
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:06
+          product: PnP device PNP0c02
+          physical id: 7
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:07
+          product: PnP device PNP0c02
+          physical id: 8
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:08
+          product: PnP device PNP0c02
+          physical id: a
+          capabilities: pnp
+          configuration: driver=system
